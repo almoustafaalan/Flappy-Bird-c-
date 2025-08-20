@@ -36,7 +36,7 @@ This project is for learning purposes and demonstrates basic game loops, physics
    - Extract it somewhere on your computer
    - Note the path to 'include' and 'lib' folders
 
-2. how to compile. You should give at least one working command;
+2. how to compile.
 g++ FlappyBird.cpp -o FlappyBird -I <path-to-sfml-include> -L <path-to-sfml-lib> -lsfml-graphics -lsfml-window -lsfml-system
 
 
