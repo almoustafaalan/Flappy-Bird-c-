@@ -8,7 +8,13 @@ This project is for learning purposes and demonstrates basic game loops, physics
 
 ---
 
-## 🎮 Features
+##  Controls
+- SPACE → Jump
+- R → Restart after game over
+- ESC → Quit
+
+
+##  Features
 - Flappy Bird mechanics (jump with SPACE)
 - Randomly generated pipes
 - Score counter
@@ -17,16 +23,20 @@ This project is for learning purposes and demonstrates basic game loops, physics
 
 ---
 
-## ⚡ Requirements
+## Requirements
 - C++ compiler (GCC, Clang, MSVC)
 - [SFML 2.5+](https://www.sfml-dev.org/download.php)
 - A font file (I used 'arial.ttf', put it in the project folder)
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Install SFML:
    - Download from [SFML official site](https://www.sfml-dev.org/download.php)
    - Extract it somewhere on your computer
    - Note the path to 'include' and 'lib' folders
+
+2. how to compile. You should give at least one working command;
+g++ FlappyBird.cpp -o FlappyBird -I <path-to-sfml-include> -L <path-to-sfml-lib> -lsfml-graphics -lsfml-window -lsfml-system
+
 
