@@ -3,8 +3,8 @@ First c++ game. Using sfml.
 
 # Flappy Bird Clone (C++ & SFML)
 
-A simple **Flappy Bird clone** built with C++ and [SFML](https://www.sfml-dev.org/).  
-This project is for learning purposes and demonstrates basic **game loops, physics, collision detection, and graphics**.
+A simple Flappy Bird clone built with C++ and [SFML](https://www.sfml-dev.org/).  
+This project is for learning purposes and demonstrates basic game loops, physics, collision detection, and graphics.
 
 ---
 
@@ -13,14 +13,14 @@ This project is for learning purposes and demonstrates basic **game loops, physi
 - Randomly generated pipes
 - Score counter
 - Game Over + Restart option
-- Built using **C++ and SFML**
+- Built using C++ and SFML
 
 ---
 
 ## ⚡ Requirements
 - C++ compiler (GCC, Clang, MSVC)
 - [SFML 2.5+](https://www.sfml-dev.org/download.php)
-- A font file (I used `arial.ttf`, put it in the project folder)
+- A font file (I used 'arial.ttf', put it in the project folder)
 
 ---
 
@@ -28,9 +28,5 @@ This project is for learning purposes and demonstrates basic **game loops, physi
 1. Install SFML:
    - Download from [SFML official site](https://www.sfml-dev.org/download.php)
    - Extract it somewhere on your computer
-   - Note the path to `include` and `lib` folders
+   - Note the path to 'include' and 'lib' folders
 
-2. Clone this repo:
-   ```bash
-   git clone https://github.com/YourUsername/FlappyBird-SFML.git
-   cd FlappyBird-SFML
